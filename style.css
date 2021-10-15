@@ -1,0 +1,55 @@
+/* body {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        font: Arial 14px;
+        background-image: url("galaxy.jpg");
+		background-size: cover;
+	} */
+
+	body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    position: relative;
+    flex-grow: 1;
+}
+
+.headimg {
+	height: 8em;
+	width: 13em
+}
+
+.but {
+	border-radius: 10%;
+	text-decoration: none;
+	color: whitesmoke;
+	
+}
+
+a {text-decoration: none;}
+
+h2 {font-style: fantasy;}
+
+/* 
+body {background-color:#9FC2CC;
+max-width: 960px;
+margin:0 auto; */
+
+
+
+/* .nav-1 {display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		background-color: #0B4F6C;
+		height:30px;
+}
+
+
+.menu a {color:#9FC2CC;
+		text-decoration: none;}
+ */

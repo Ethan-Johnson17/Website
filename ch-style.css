@@ -1,0 +1,162 @@
+/* body, html {
+        min-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        font: Arial 14px;
+        background-image: url("galaxy.jpg")
+      }
+
+    header {background-color:#0B4F6C;}
+
+    .nav-1 {display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        background-color: #0B4F6C;
+        height: 30px;}
+
+    .logo {display: block;
+        margin: 0px 600px 10px 600px;
+        padding-top: 25px;
+        width: 300px;}
+
+    .menu {justify-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-column: 100%;
+        font-size: 150%;
+        color:#9FC2CC;
+        background-color: #0B4F6C;
+        grid-column-gap: 2px;
+        font-weight: bold;
+}
+
+      .name-box {text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .container {display: grid;
+      	grid-template-columns: 1fr 1fr 1fr;
+      	grid-template-rows: 350px 50px 200px 350px 50px 200px;
+        background-color: #5E6091;
+        grid-row-gap: 25px;
+        grid-column-gap: 45px;
+        height: 100%;
+        margin: 75px 75px 75px 75px;
+        padding: 100px 50px 100px 100px;}
+
+      .pic-markus {background-color: #279e91;
+        height: 350px;
+        width: 260px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        justify-content: center;}
+
+      .name-markus {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        }
+
+      .description-markus {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+      .pic-lily {background-color: #0B4F6C;
+        height: 350px;
+        width: 260px;
+        grid-column: 2/3;
+        grid-row: 1/2;}
+
+      .name-lily {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        }
+
+      .description-lily {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+
+      .pic-vanessa {background-color: #0B4F6C;
+        height: 350px;
+        width: 260px;
+        grid-column: 3/4;
+        grid-row: 1/2;}
+
+      .name-vanessa {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+        }
+
+      .description-vanessa {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+
+      .pic-damalum {background-color: #0B4F6C;
+        height: 350px;
+        width: 260px;
+        grid-column: 1/2;
+        grid-row: 4/5;}
+
+      .name-damalum {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 1/2;
+        grid-row: 5/6;}
+
+      .description-damalum {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+
+      .pic-sorge {background-color: black;
+        height: 350px;
+        width: 260px;
+        grid-column: 2/3;
+        grid-row: 4/5;}
+
+      .name-sorge {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 2/3;
+        grid-row: 5/6;}
+
+      .description-sorge {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+      .pic-ketszembe {background-color: #5E6091;
+        height: 350px;
+        width: 260px;
+        grid-column: 3/4;
+        grid-row: 4/5;}
+
+      .name-ketszembe {border: 3px black solid;
+        height: 50px;
+        width: 260px;
+        grid-column: 3/4;
+        grid-row: 5/6;}
+
+      .description-ketszembe {border: 3px black solid;
+        height: 200px;
+        width: 260px;}
+
+      .description-box {text-size: 70%;
+        padding: 5px;
+        text-align: center;}
+
+      img {max-height: 350px;
+        width: 260px;
+        }
+
+      .headtitle {margin-left: 600px;
+                  margin-right: 600px;} */

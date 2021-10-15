@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expanse Phenomena</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container-fluid">
+    <div class="row bg-dark">
+      <div class="col-md-3 logobox me-5 img-rounded"> <img class="img-fluid headimg" src="booklogo.png"></div>
+      <div class="col">
+        <div class="row justify-content-between text-center mt-5">
+          <div class="col-md-2 bg-secondary menu but text-dark border p-2"><a href="summary.html">Summary</a></div>
+          <div class="col-md-2 bg-secondary menu but text-dark border p-2"><a href="characters.html">Characters</a>
+          </div>
+          <div class="col-md-2 bg-secondary menu but text-dark border p-2"><a href="scenes.html">Scenes</a></div>
+          <div class="col-md-2 bg-secondary menu but text-dark border p-2"><a href="premise.html">Premise</a></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+
+    <!-- <div class="body-info">
+      <h2>
+        The Summary
+      </h2>
+      <p>
+        Markus, a former member of the military, finds himself in the middle of a mess he never asked for. Following his
+        discharge from the army, he has carved out a quiet life for himself until he’s pulled into a struggle that is both
+        internal and external, against foes of the past seeking his life and foes of the future trying to kill his sister,
+      who they’ve taken a peculiar interest in. He's fighting to protect her and his sanity. Oh, and he’d like to stay
+      alive in the process.
+    </p>
+    <h2>
+      The Characters
+    </h2>
+    <ul>
+      <li class="good">Main character: <a href="markus.html"> Markus </a></li>
+      <li class="good">Important character: <a href="lily.html"> Lily</a></li>
+      <li class="good">Support character: <a href="supportcharacters.html"> Vanessa</a></li>
+      <li class="badguy">Main enemy: <a href="great evil.html"> Damalum</a></li>
+      <li class="badguy">Enemy: <a href="sorg.html"> Sorg</a></li>
+      <li class="badguy">Support character: <a href="supportcharacters.html">Ketszembe</a></li>
+    </ul>
+    <h2>
+      The Scenes
+    </h2>
+    <ol>
+      <li class="scenes"> D3 <a href="The Pursuit.html">The Pursuit: A Hotel</li></a>
+      <li class="scenes"> D1 <a href="The Expanse.html">The Expanse </li></a>
+      <li class="scenes"> D2 <a href="The Artifact.html">The Artifact: The home of Markus </li></a>
+    </ol>
+  </div>
+  <h3>The Premise- Markus's quiet life is disrupted by a series of phenomena</h3>
+  <div class="premise">
+    <ul>
+      <li>Protagonist:<a href="markus.html"> Markus </a></li>
+      <li>Situation: Markus's reunion with his sister doesn't go according to plan when they are attacked by a madman.
+      </li>
+      <li>Objective: </li>
+      <li>Opponent: <a href="great evil.html">Damalum</a></li>
+      <li>Disaster:</li>
+      <li>Conflict:</li>
+    </ul>
+  </div>
+  <h2>The Origins</h2>
+  <p>Do you ever read a story and wonder how it came to be? I know I do, and that's why I want to share with you the
+    inspiration behind this story.</p> -->
+    <div class="row flex-column text-center">
+      <div class="col-md-12">
+        <h2>Short Story Practice Generator</h2>
+        <p>Push button to start</p>
+      </div>
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col-md-4 text-center">
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn" onclick="generate('Main')">Generate:
+          Main Character</button>
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn" onclick="generate('genre')">Generate:
+          Genre</button>
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn"
+          onclick="generate('genre')">Generate</button>
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn"
+          onclick="generate('genre')">Generate</button>
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn"
+          onclick="generate('genre')">Generate</button>
+        <button class="btn btn-rounded shadow-p bg-dark text-light" id="genBtn"
+          onclick="generate('genre')">Generate</button>
+      </div>
+      <ul class="col-md-2" id="MC">Main Character: </ul>
+      <ul class="col-md-2" id="genre">Genre: </ul>
+      <ul class="col-md-2" id="sidekick">Sidekick: </ul>
+      <ul class="col-md-2" id="setting">Setting: </ul>
+      <ul class="col-md-2" id="time">Time: </ul>
+      <ul class="col-md-2" id="conflict">Enemy/Conflict: </ul>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <p>Ethan's Coding Career: 🎢</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
